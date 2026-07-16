@@ -78,3 +78,4 @@ StockPrediction/
 └── README.md
 
 ---
+you can open the prediction run by using-  https://cleat-graded-calorie.ngrok-free.dev -> http://localhost:5000 
