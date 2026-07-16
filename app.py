@@ -1,3 +1,5 @@
+import os
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
 import streamlit as st
 import yfinance as yf
 import pandas as pd
@@ -5,7 +7,7 @@ import numpy as np
 import plotly.graph_objects as go
 import joblib
 import os
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 
 # ----------------------------------------------------
 # PAGE CONFIG
